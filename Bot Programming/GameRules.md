@@ -1,3 +1,4 @@
+# Game Rules
 This is a game for four players, identified with numbers from 0 to 3. Each
 player has control over a group of Pioneers helped by some Furyans. The goals
 of the game are to conquer as many cave cells and to pick as many gems as
