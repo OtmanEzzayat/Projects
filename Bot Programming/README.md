@@ -8,21 +8,11 @@ Simulation a complex 4-player game set on the fictional planet Crematoria from t
 
 ### Compilation:
 
-To compile the game, run the following command in the terminal:
-```bash
-make all
-```
-
-Execute the game with the following command:
-```bash
-./Game WESTCOAST Dummy Dummy Dummy -s 30 -i default.cnf -o default.res
-```
-
-Viewing the Match:
-After compilation and execution, follow these steps to witness the match:
-
 1. Open a console and cd to the directory where you extracted the source code.
-2. Run make all
+2. Run:
+```bash
+ make all
+```
 3. This creates an executable file called Game. This executable allows you to run
 a game using a command like:
 ```bash
