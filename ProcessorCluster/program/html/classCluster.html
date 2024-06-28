@@ -1,0 +1,867 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Simulación del rendimiento de procesadores interconectados.: Referencia de la Clase Cluster</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Simulación del rendimiento de procesadores interconectados.<span id="projectnumber">&#160;versió primavera 2023</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pri-methods">Métodos privados</a> &#124;
+<a href="#pri-attribs">Atributos privados</a> &#124;
+<a href="classCluster-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle"><div class="title">Referencia de la Clase Cluster</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Representa un cluster de procesadores que almacena procesadores en un formato de árbol binario.  
+ <a href="classCluster.html#details">Más...</a></p>
+
+<p><code>#include &lt;<a class="el" href="Cluster_8hh_source.html">Cluster.hh</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:aee7feb1d599d4c8fda6c3ee83e86ba81"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#aee7feb1d599d4c8fda6c3ee83e86ba81">Cluster</a> ()</td></tr>
+<tr class="memdesc:aee7feb1d599d4c8fda6c3ee83e86ba81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creadora por defecto.  <br /></td></tr>
+<tr class="separator:aee7feb1d599d4c8fda6c3ee83e86ba81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0217eac48075fdbf9c2fadbe43b269b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#aa0217eac48075fdbf9c2fadbe43b269b">alta_job</a> (const <a class="el" href="classProceso.html">Proceso</a> &amp;j)</td></tr>
+<tr class="memdesc:aa0217eac48075fdbf9c2fadbe43b269b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modificadora que añade un proceso al procesador óptimo del P.I.  <br /></td></tr>
+<tr class="separator:aa0217eac48075fdbf9c2fadbe43b269b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f5cd067af49eef46cf5424c7c872369"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#a9f5cd067af49eef46cf5424c7c872369">alta_job_prc</a> (const <a class="el" href="classProceso.html">Proceso</a> &amp;j, const string &amp;idn)</td></tr>
+<tr class="memdesc:a9f5cd067af49eef46cf5424c7c872369"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modificadora que añade un proceso en un procesador en específico del P.I.  <br /></td></tr>
+<tr class="separator:a9f5cd067af49eef46cf5424c7c872369"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7ba63889398a2462472f307ff68f2f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#ae7ba63889398a2462472f307ff68f2f2">baja_job_prc</a> (int i, const string &amp;idn)</td></tr>
+<tr class="memdesc:ae7ba63889398a2462472f307ff68f2f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modificadora que elimina un proceso de un procesador en específico del P.I.  <br /></td></tr>
+<tr class="separator:ae7ba63889398a2462472f307ff68f2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f757fc79fa26bdca46e146ba83d0edd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#a7f757fc79fa26bdca46e146ba83d0edd">avanzar_tmp</a> (int t)</td></tr>
+<tr class="memdesc:a7f757fc79fa26bdca46e146ba83d0edd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modificadora que avanza el tiempo en todos los procesos de los procesadores del P.I.  <br /></td></tr>
+<tr class="separator:a7f757fc79fa26bdca46e146ba83d0edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0700adc10484a0fb8e9db38b3817a73d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#a0700adc10484a0fb8e9db38b3817a73d">compactar</a> ()</td></tr>
+<tr class="memdesc:a0700adc10484a0fb8e9db38b3817a73d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modificadora que compacta los procesos de la memoria de los procesadores del P.I.  <br /></td></tr>
+<tr class="separator:a0700adc10484a0fb8e9db38b3817a73d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeda1fc4a55c7e02e786fdd315a26df99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#aeda1fc4a55c7e02e786fdd315a26df99">compactar_prc</a> (const string &amp;idn)</td></tr>
+<tr class="memdesc:aeda1fc4a55c7e02e786fdd315a26df99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modificadora que compacta los procesos de la memoria de un procesador del P.I.  <br /></td></tr>
+<tr class="separator:aeda1fc4a55c7e02e786fdd315a26df99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7bbd1b456d842df3c399094420765d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#ab7bbd1b456d842df3c399094420765d5">modificar_cluster</a> (const string &amp;idn, const <a class="el" href="classCluster.html">Cluster</a> &amp;cl)</td></tr>
+<tr class="memdesc:ab7bbd1b456d842df3c399094420765d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modificadora que elimina un procesador del P.I. y coloca un nuevo cluster en su lugar.  <br /></td></tr>
+<tr class="separator:ab7bbd1b456d842df3c399094420765d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9530df59165da282b956c2599e688e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#ac9530df59165da282b956c2599e688e2">configurar</a> ()</td></tr>
+<tr class="memdesc:ac9530df59165da282b956c2599e688e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de lectura.  <br /></td></tr>
+<tr class="separator:ac9530df59165da282b956c2599e688e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af34d03b69038e2fab647d7d88ca31e95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#af34d03b69038e2fab647d7d88ca31e95">imprimir</a> () const</td></tr>
+<tr class="memdesc:af34d03b69038e2fab647d7d88ca31e95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de escritura de cluster.  <br /></td></tr>
+<tr class="separator:af34d03b69038e2fab647d7d88ca31e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea845159944ab31e2ac65c0ee34af053"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#aea845159944ab31e2ac65c0ee34af053">imprimir_struct</a> () const</td></tr>
+<tr class="memdesc:aea845159944ab31e2ac65c0ee34af053"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de escritura de la estructura del cluster.  <br /></td></tr>
+<tr class="separator:aea845159944ab31e2ac65c0ee34af053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0feb97bdc9ca2c1e5aa85a910fe1a919"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#a0feb97bdc9ca2c1e5aa85a910fe1a919">imprimir_prc</a> (const string &amp;idn) const</td></tr>
+<tr class="memdesc:a0feb97bdc9ca2c1e5aa85a910fe1a919"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de escritura de un procesador del cluster.  <br /></td></tr>
+<tr class="separator:a0feb97bdc9ca2c1e5aa85a910fe1a919"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Métodos privados</h2></td></tr>
+<tr class="memitem:ad57a1079f01d2b3a88b695e91ff546e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#ad57a1079f01d2b3a88b695e91ff546e9">modificar_bintree_procesador</a> (BinTree&lt; string &gt; &amp;a, const string &amp;idn, const <a class="el" href="classCluster.html">Cluster</a> &amp;cl)</td></tr>
+<tr class="memdesc:ad57a1079f01d2b3a88b695e91ff546e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modificadora del BinTree del P.I.  <br /></td></tr>
+<tr class="separator:ad57a1079f01d2b3a88b695e91ff546e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa125c3b69465dee70e4fcff678424470"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#aa125c3b69465dee70e4fcff678424470">buscar_procesador_recursivo</a> (string &amp;idn, const BinTree&lt; string &gt; &amp;a, int size, int &amp;min, const set&lt; string &gt; &amp;posibles) const</td></tr>
+<tr class="memdesc:aa125c3b69465dee70e4fcff678424470"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consultora de un identificador del BinTree del P.I.  <br /></td></tr>
+<tr class="separator:aa125c3b69465dee70e4fcff678424470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad5d381d390683b5535d1d04033d80ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#aad5d381d390683b5535d1d04033d80ba">leer_bintree_procesador</a> (BinTree&lt; string &gt; &amp;a)</td></tr>
+<tr class="memdesc:aad5d381d390683b5535d1d04033d80ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de lectura.  <br /></td></tr>
+<tr class="separator:aad5d381d390683b5535d1d04033d80ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac85d02cecd98328fcfd33c87b650c14c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#ac85d02cecd98328fcfd33c87b650c14c">imprimir_bintree_procesador</a> (const BinTree&lt; string &gt; &amp;a) const</td></tr>
+<tr class="memdesc:ac85d02cecd98328fcfd33c87b650c14c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de escritura.  <br /></td></tr>
+<tr class="separator:ac85d02cecd98328fcfd33c87b650c14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:ac0a0e13547296cc8da49a1a44b77f6b1"><td class="memItemLeft" align="right" valign="top">BinTree&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#ac0a0e13547296cc8da49a1a44b77f6b1">cls</a></td></tr>
+<tr class="memdesc:ac0a0e13547296cc8da49a1a44b77f6b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">BinTree que almacena los identificadores de los procesadores.  <br /></td></tr>
+<tr class="separator:ac0a0e13547296cc8da49a1a44b77f6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8187a87b88b7d85534f9506a955fc19e"><td class="memItemLeft" align="right" valign="top">map&lt; string, <a class="el" href="classProcesador.html">Procesador</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a></td></tr>
+<tr class="memdesc:a8187a87b88b7d85534f9506a955fc19e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mapa que guarda los procesadores cuyas claves son los identificadores almacenados en el árbol.  <br /></td></tr>
+<tr class="separator:a8187a87b88b7d85534f9506a955fc19e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Representa un cluster de procesadores que almacena procesadores en un formato de árbol binario. </p>
+<p>Ofrece varias operaciones para modificar los procesadores e incluso la estructura del mismo cluster. Además de las operaciones de lectura y varias opciones para la escritura.</p>
+<p>Dado que vamos a necesitar leer árboles, definimos el concepto de clúster vacío. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8hh_source.html#l00023">23</a> del archivo <a class="el" href="Cluster_8hh_source.html">Cluster.hh</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a id="aee7feb1d599d4c8fda6c3ee83e86ba81" name="aee7feb1d599d4c8fda6c3ee83e86ba81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee7feb1d599d4c8fda6c3ee83e86ba81">&#9670;&#160;</a></span>Cluster()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Cluster::Cluster </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creadora por defecto. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es un cluster sin atributos. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00080">80</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   80</span>{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a id="aa0217eac48075fdbf9c2fadbe43b269b" name="aa0217eac48075fdbf9c2fadbe43b269b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0217eac48075fdbf9c2fadbe43b269b">&#9670;&#160;</a></span>alta_job()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Cluster::alta_job </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classProceso.html">Proceso</a> &amp;&#160;</td>
+          <td class="paramname"><em>j</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Modificadora que añade un proceso al procesador óptimo del P.I. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><a class="el" href="classProceso.html" title="Representa una proceso con los atributos identificador, memoria y tiempo previsto de ejecución.">Proceso</a> j. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El P.I. intenta añadir el proceso p en un procesador disponible siguiendo unas condiciones si se puede colocar en más de uno. Si se ha añadido devolverá cierto, y falso en caso contrario. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00084">84</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   85</span>    {</div>
+<div class="line"><span class="lineno">   86</span>        set&lt;string&gt; posibles;</div>
+<div class="line"><span class="lineno">   87</span>        map&lt;string,Procesador&gt;::iterator it = <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.begin();</div>
+<div class="line"><span class="lineno">   88</span>        <span class="keywordtype">int</span> libre = 0;</div>
+<div class="line"><span class="lineno">   89</span>        <span class="keywordtype">int</span> ajustado = 0;</div>
+<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">while</span> (it != <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.end()) {</div>
+<div class="line"><span class="lineno">   91</span>            <span class="keywordtype">int</span> m = it-&gt;second.espacio_optimo(j);</div>
+<div class="line"><span class="lineno">   92</span>            <span class="keywordtype">int</span> space = it-&gt;second.consul_space();</div>
+<div class="line"><span class="lineno">   93</span>            <span class="keywordflow">if</span> (m != -1 and (ajustado &gt; m or ajustado == 0)) {</div>
+<div class="line"><span class="lineno">   94</span>                ajustado = m;</div>
+<div class="line"><span class="lineno">   95</span>                libre = space;</div>
+<div class="line"><span class="lineno">   96</span>                posibles.clear();</div>
+<div class="line"><span class="lineno">   97</span>                posibles.insert(it-&gt;first);</div>
+<div class="line"><span class="lineno">   98</span>            }</div>
+<div class="line"><span class="lineno">   99</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ajustado == m and libre &lt; space) {</div>
+<div class="line"><span class="lineno">  100</span>                libre = space;</div>
+<div class="line"><span class="lineno">  101</span>                posibles.clear();</div>
+<div class="line"><span class="lineno">  102</span>                posibles.insert(it-&gt;first);</div>
+<div class="line"><span class="lineno">  103</span>            }</div>
+<div class="line"><span class="lineno">  104</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ajustado == m and libre == space) {</div>
+<div class="line"><span class="lineno">  105</span>                posibles.insert(it-&gt;first);</div>
+<div class="line"><span class="lineno">  106</span>            }</div>
+<div class="line"><span class="lineno">  107</span>            ++it;</div>
+<div class="line"><span class="lineno">  108</span>        }</div>
+<div class="line"><span class="lineno">  109</span>        <span class="keywordtype">string</span> idn = <span class="stringliteral">&quot;*&quot;</span>;</div>
+<div class="line"><span class="lineno">  110</span>        <span class="keywordflow">if</span> (posibles.empty()) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  111</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (posibles.size() == 1) idn = *posibles.begin();</div>
+<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  113</span>            <span class="keywordtype">int</span> min = -1;</div>
+<div class="line"><span class="lineno">  114</span>            <a class="code hl_function" href="classCluster.html#aa125c3b69465dee70e4fcff678424470">buscar_procesador_recursivo</a>(idn, <a class="code hl_variable" href="classCluster.html#ac0a0e13547296cc8da49a1a44b77f6b1">cls</a>, 0, min, posibles);</div>
+<div class="line"><span class="lineno">  115</span>        }</div>
+<div class="line"><span class="lineno">  116</span>        it = <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.find(idn);</div>
+<div class="line"><span class="lineno">  117</span>        it-&gt;second.anadir_job(j,it-&gt;second.posicion_optima(j));</div>
+<div class="line"><span class="lineno">  118</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  119</span>    }</div>
+<div class="ttc" id="aclassCluster_html_a8187a87b88b7d85534f9506a955fc19e"><div class="ttname"><a href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">Cluster::d</a></div><div class="ttdeci">map&lt; string, Procesador &gt; d</div><div class="ttdoc">Mapa que guarda los procesadores cuyas claves son los identificadores almacenados en el árbol.</div><div class="ttdef"><b>Definition:</b> <a href="Cluster_8hh_source.html#l00031">Cluster.hh:31</a></div></div>
+<div class="ttc" id="aclassCluster_html_aa125c3b69465dee70e4fcff678424470"><div class="ttname"><a href="classCluster.html#aa125c3b69465dee70e4fcff678424470">Cluster::buscar_procesador_recursivo</a></div><div class="ttdeci">void buscar_procesador_recursivo(string &amp;idn, const BinTree&lt; string &gt; &amp;a, int size, int &amp;min, const set&lt; string &gt; &amp;posibles) const</div><div class="ttdoc">Consultora de un identificador del BinTree del P.I.</div><div class="ttdef"><b>Definition:</b> <a href="Cluster_8cc_source.html#l00036">Cluster.cc:36</a></div></div>
+<div class="ttc" id="aclassCluster_html_ac0a0e13547296cc8da49a1a44b77f6b1"><div class="ttname"><a href="classCluster.html#ac0a0e13547296cc8da49a1a44b77f6b1">Cluster::cls</a></div><div class="ttdeci">BinTree&lt; string &gt; cls</div><div class="ttdoc">BinTree que almacena los identificadores de los procesadores.</div><div class="ttdef"><b>Definition:</b> <a href="Cluster_8hh_source.html#l00028">Cluster.hh:28</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9f5cd067af49eef46cf5424c7c872369" name="a9f5cd067af49eef46cf5424c7c872369"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f5cd067af49eef46cf5424c7c872369">&#9670;&#160;</a></span>alta_job_prc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cluster::alta_job_prc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classProceso.html">Proceso</a> &amp;&#160;</td>
+          <td class="paramname"><em>j</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>idn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Modificadora que añade un proceso en un procesador en específico del P.I. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><a class="el" href="classProceso.html" title="Representa una proceso con los atributos identificador, memoria y tiempo previsto de ejecución.">Proceso</a> j, string idn. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El P.I. intenta añadir el proceso "j" en el procesador con identificador "idn". </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00121">121</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  122</span>    {</div>
+<div class="line"><span class="lineno">  123</span>        map&lt;string, Procesador&gt;::iterator it = <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.find(idn);</div>
+<div class="line"><span class="lineno">  124</span>        <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.end()) cout &lt;&lt; <span class="stringliteral">&quot;error: no existe procesador&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  125</span>        <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  126</span>            <span class="keywordtype">int</span> pos = it-&gt;second.posicion_optima(j);</div>
+<div class="line"><span class="lineno">  127</span>            it-&gt;second.anadir_job(j,pos);</div>
+<div class="line"><span class="lineno">  128</span>        }</div>
+<div class="line"><span class="lineno">  129</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7f757fc79fa26bdca46e146ba83d0edd" name="a7f757fc79fa26bdca46e146ba83d0edd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f757fc79fa26bdca46e146ba83d0edd">&#9670;&#160;</a></span>avanzar_tmp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cluster::avanzar_tmp </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Modificadora que avanza el tiempo en todos los procesos de los procesadores del P.I. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>t &gt; 0. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Los procesos de los procesadores del P.I. pasan a tener un tiempo previsto de ejecucion "tmp" - "t". Si esta diferéncia es negativa, se elimina el proceso del procesador. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00138">138</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  139</span>    {</div>
+<div class="line"><span class="lineno">  140</span>        map&lt;string,Procesador&gt;::iterator it = <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.begin();</div>
+<div class="line"><span class="lineno">  141</span>        <span class="keywordflow">while</span> (it != <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.end()) {</div>
+<div class="line"><span class="lineno">  142</span>            it-&gt;second.avanzar_tmp(t);</div>
+<div class="line"><span class="lineno">  143</span>            ++it;</div>
+<div class="line"><span class="lineno">  144</span>        }</div>
+<div class="line"><span class="lineno">  145</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae7ba63889398a2462472f307ff68f2f2" name="ae7ba63889398a2462472f307ff68f2f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7ba63889398a2462472f307ff68f2f2">&#9670;&#160;</a></span>baja_job_prc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cluster::baja_job_prc </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>idn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Modificadora que elimina un proceso de un procesador en específico del P.I. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>int i &gt;= 0, string idn. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El P.I. intenta eliminar el proceso con identificador "i" del procesador con identificador "idn". </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00131">131</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  132</span>    {</div>
+<div class="line"><span class="lineno">  133</span>        map&lt;string, Procesador&gt;::iterator it = <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.find(idn);</div>
+<div class="line"><span class="lineno">  134</span>        <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.end()) cout &lt;&lt; <span class="stringliteral">&quot;error: no existe procesador&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  135</span>        <span class="keywordflow">else</span> <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>[idn].eliminar_job(i); </div>
+<div class="line"><span class="lineno">  136</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa125c3b69465dee70e4fcff678424470" name="aa125c3b69465dee70e4fcff678424470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa125c3b69465dee70e4fcff678424470">&#9670;&#160;</a></span>buscar_procesador_recursivo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cluster::buscar_procesador_recursivo </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>idn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BinTree&lt; string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const set&lt; string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>posibles</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Consultora de un identificador del BinTree del P.I. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>String idn, a = cls, int size &gt;= 0, int min &gt;= -1, set&lt;string&gt; posibles. Se garantiza que el set posibles tiene almenos 2 elementos y, por ende, se va a devolver siempre un identificador. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se busca en el BinTree un string que esté en el set "posibles". Si hay varios string que esten en el set, se elige el más cercano a la raíz y si hay empate, el más situado a la izquierda y se coloca en la variable "idn". </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00036">36</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   37</span>    {</div>
+<div class="line"><span class="lineno">   38</span>        <span class="keywordflow">if</span> ((min == -1 or size &lt; min) and not a.empty()) {</div>
+<div class="line"><span class="lineno">   39</span>            <span class="keywordtype">string</span> s = a.value();</div>
+<div class="line"><span class="lineno">   40</span>            <span class="keywordflow">if</span>(posibles.find(s) != posibles.end()) {</div>
+<div class="line"><span class="lineno">   41</span>                min = size;</div>
+<div class="line"><span class="lineno">   42</span>                idn = s;</div>
+<div class="line"><span class="lineno">   43</span>            }</div>
+<div class="line"><span class="lineno">   44</span>            <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   45</span>                <a class="code hl_function" href="classCluster.html#aa125c3b69465dee70e4fcff678424470">buscar_procesador_recursivo</a>(idn, a.left(), size + 1, min, posibles);</div>
+<div class="line"><span class="lineno">   46</span>                <a class="code hl_function" href="classCluster.html#aa125c3b69465dee70e4fcff678424470">buscar_procesador_recursivo</a>(idn, a.right(), size + 1, min, posibles);</div>
+<div class="line"><span class="lineno">   47</span>            }</div>
+<div class="line"><span class="lineno">   48</span>        }</div>
+<div class="line"><span class="lineno">   49</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0700adc10484a0fb8e9db38b3817a73d" name="a0700adc10484a0fb8e9db38b3817a73d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0700adc10484a0fb8e9db38b3817a73d">&#9670;&#160;</a></span>compactar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cluster::compactar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Modificadora que compacta los procesos de la memoria de los procesadores del P.I. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se han movido todos los procesos hacia el principio de la memoria de todos los procesadores del cluster, sin dejar huecos, sin solaparse y respetando el orden inicial. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00147">147</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  148</span>    {</div>
+<div class="line"><span class="lineno">  149</span>        map&lt;string,Procesador&gt;::iterator it = <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.begin();</div>
+<div class="line"><span class="lineno">  150</span>        <span class="keywordflow">while</span> (it != <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.end()) {</div>
+<div class="line"><span class="lineno">  151</span>            it-&gt;second.compactar_mem();</div>
+<div class="line"><span class="lineno">  152</span>            ++it;</div>
+<div class="line"><span class="lineno">  153</span>        }</div>
+<div class="line"><span class="lineno">  154</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aeda1fc4a55c7e02e786fdd315a26df99" name="aeda1fc4a55c7e02e786fdd315a26df99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeda1fc4a55c7e02e786fdd315a26df99">&#9670;&#160;</a></span>compactar_prc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cluster::compactar_prc </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>idn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Modificadora que compacta los procesos de la memoria de un procesador del P.I. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>String idn. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se han movido todos los procesos hacia el principio de la memoria del procesador de identificador "idn", sin dejar huecos, sin solaparse y respetando el orden inicial. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00156">156</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  157</span>    {</div>
+<div class="line"><span class="lineno">  158</span>        map&lt;string,Procesador&gt;::iterator it = <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.find(idn);</div>
+<div class="line"><span class="lineno">  159</span>        <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.end()) cout &lt;&lt; <span class="stringliteral">&quot;error: no existe procesador&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  160</span>        <span class="keywordflow">else</span> it-&gt;second.compactar_mem();</div>
+<div class="line"><span class="lineno">  161</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac9530df59165da282b956c2599e688e2" name="ac9530df59165da282b956c2599e688e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9530df59165da282b956c2599e688e2">&#9670;&#160;</a></span>configurar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cluster::configurar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operación de lectura. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>Se han preparado al canal estándar de entrada los atributos de un número de procesadores, que representan un arbol binario en preorden donde los procesadores con idn = "*" representan un árbol vacío. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El P.I. contiene los atributos leídos del canal estándar de entrada. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00174">174</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  175</span>    {</div>
+<div class="line"><span class="lineno">  176</span>        <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.clear();</div>
+<div class="line"><span class="lineno">  177</span>        BinTree&lt;string&gt; tree;</div>
+<div class="line"><span class="lineno">  178</span>        <a class="code hl_function" href="classCluster.html#aad5d381d390683b5535d1d04033d80ba">leer_bintree_procesador</a>(tree);</div>
+<div class="line"><span class="lineno">  179</span>        <a class="code hl_variable" href="classCluster.html#ac0a0e13547296cc8da49a1a44b77f6b1">cls</a> = tree;</div>
+<div class="line"><span class="lineno">  180</span>    }</div>
+<div class="ttc" id="aclassCluster_html_aad5d381d390683b5535d1d04033d80ba"><div class="ttname"><a href="classCluster.html#aad5d381d390683b5535d1d04033d80ba">Cluster::leer_bintree_procesador</a></div><div class="ttdeci">void leer_bintree_procesador(BinTree&lt; string &gt; &amp;a)</div><div class="ttdoc">Operación de lectura.</div><div class="ttdef"><b>Definition:</b> <a href="Cluster_8cc_source.html#l00052">Cluster.cc:52</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af34d03b69038e2fab647d7d88ca31e95" name="af34d03b69038e2fab647d7d88ca31e95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af34d03b69038e2fab647d7d88ca31e95">&#9670;&#160;</a></span>imprimir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cluster::imprimir </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operación de escritura de cluster. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se han escrito los atributos del P.I. en el canal estándar de salida por orden creciente de identificador. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00182">182</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  183</span>    {</div>
+<div class="line"><span class="lineno">  184</span>        map&lt;string,Procesador&gt;::const_iterator it = <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.begin();</div>
+<div class="line"><span class="lineno">  185</span>        <span class="keywordflow">while</span> (it != <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.end()) {</div>
+<div class="line"><span class="lineno">  186</span>            cout &lt;&lt; it-&gt;first &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  187</span>            it-&gt;second.imprimir();</div>
+<div class="line"><span class="lineno">  188</span>            ++it;</div>
+<div class="line"><span class="lineno">  189</span>        }</div>
+<div class="line"><span class="lineno">  190</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac85d02cecd98328fcfd33c87b650c14c" name="ac85d02cecd98328fcfd33c87b650c14c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac85d02cecd98328fcfd33c87b650c14c">&#9670;&#160;</a></span>imprimir_bintree_procesador()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cluster::imprimir_bintree_procesador </td>
+          <td>(</td>
+          <td class="paramtype">const BinTree&lt; string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Operación de escritura. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>a = cls. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se ha escrito en preorden los elementos del BinTree "a" en el canal estándar de salida con paréntesis representando la jerarquía del árbol. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00066">66</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   67</span>    {</div>
+<div class="line"><span class="lineno">   68</span>        <span class="keywordflow">if</span> (not a.empty()) {</div>
+<div class="line"><span class="lineno">   69</span>            cout &lt;&lt; <span class="charliteral">&#39;(&#39;</span> &lt;&lt; a.value();</div>
+<div class="line"><span class="lineno">   70</span>        <a class="code hl_function" href="classCluster.html#ac85d02cecd98328fcfd33c87b650c14c">imprimir_bintree_procesador</a>(a.left()); </div>
+<div class="line"><span class="lineno">   71</span>        <a class="code hl_function" href="classCluster.html#ac85d02cecd98328fcfd33c87b650c14c">imprimir_bintree_procesador</a>(a.right());</div>
+<div class="line"><span class="lineno">   72</span>            cout &lt;&lt; <span class="charliteral">&#39;)&#39;</span>;</div>
+<div class="line"><span class="lineno">   73</span>        }</div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordflow">else</span> cout &lt;&lt; <span class="charliteral">&#39; &#39;</span>;</div>
+<div class="line"><span class="lineno">   75</span>    }</div>
+<div class="ttc" id="aclassCluster_html_ac85d02cecd98328fcfd33c87b650c14c"><div class="ttname"><a href="classCluster.html#ac85d02cecd98328fcfd33c87b650c14c">Cluster::imprimir_bintree_procesador</a></div><div class="ttdeci">void imprimir_bintree_procesador(const BinTree&lt; string &gt; &amp;a) const</div><div class="ttdoc">Operación de escritura.</div><div class="ttdef"><b>Definition:</b> <a href="Cluster_8cc_source.html#l00066">Cluster.cc:66</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0feb97bdc9ca2c1e5aa85a910fe1a919" name="a0feb97bdc9ca2c1e5aa85a910fe1a919"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0feb97bdc9ca2c1e5aa85a910fe1a919">&#9670;&#160;</a></span>imprimir_prc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cluster::imprimir_prc </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>idn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operación de escritura de un procesador del cluster. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>String idn. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se han escrito los atributos del procesador con identificador "idn" del P.I. en el canal estándar de salida. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00198">198</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  199</span>    {</div>
+<div class="line"><span class="lineno">  200</span>        map&lt;string, Procesador&gt;::const_iterator it = <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.find(idn);</div>
+<div class="line"><span class="lineno">  201</span>        <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.end()) cout &lt;&lt; <span class="stringliteral">&quot;error: no existe procesador&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  202</span>        <span class="keywordflow">else</span> it-&gt;second.imprimir();</div>
+<div class="line"><span class="lineno">  203</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aea845159944ab31e2ac65c0ee34af053" name="aea845159944ab31e2ac65c0ee34af053"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea845159944ab31e2ac65c0ee34af053">&#9670;&#160;</a></span>imprimir_struct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cluster::imprimir_struct </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operación de escritura de la estructura del cluster. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se han escrito los atributos del P.I. en el canal estándar de salida en preorden. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00192">192</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  193</span>    {</div>
+<div class="line"><span class="lineno">  194</span>        <a class="code hl_function" href="classCluster.html#ac85d02cecd98328fcfd33c87b650c14c">imprimir_bintree_procesador</a>(<a class="code hl_variable" href="classCluster.html#ac0a0e13547296cc8da49a1a44b77f6b1">cls</a>);</div>
+<div class="line"><span class="lineno">  195</span>        cout &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  196</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aad5d381d390683b5535d1d04033d80ba" name="aad5d381d390683b5535d1d04033d80ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad5d381d390683b5535d1d04033d80ba">&#9670;&#160;</a></span>leer_bintree_procesador()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cluster::leer_bintree_procesador </td>
+          <td>(</td>
+          <td class="paramtype">BinTree&lt; string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Operación de lectura. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>BinTree de strings vacío. Además, se ha preparado en el canal estándar de entrada un número de identificadores, que representan un árbol binario en preorden, donde el identificador "*" representa un árbol vacío. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El bintree "a" contiene el árbol que había en el canal estándar de entrada. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00052">52</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   52</span>                                                            {</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordtype">string</span> idn;</div>
+<div class="line"><span class="lineno">   54</span>        cin &gt;&gt; idn;</div>
+<div class="line"><span class="lineno">   55</span>        <span class="keywordflow">if</span> (idn != <span class="stringliteral">&quot;*&quot;</span>){</div>
+<div class="line"><span class="lineno">   56</span>            <a class="code hl_class" href="classProcesador.html">Procesador</a> prc(idn);</div>
+<div class="line"><span class="lineno">   57</span>            prc.leer();</div>
+<div class="line"><span class="lineno">   58</span>            <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.insert(make_pair(idn, prc));</div>
+<div class="line"><span class="lineno">   59</span>            BinTree&lt;string&gt; l, r;</div>
+<div class="line"><span class="lineno">   60</span>            <a class="code hl_function" href="classCluster.html#aad5d381d390683b5535d1d04033d80ba">leer_bintree_procesador</a>(l);</div>
+<div class="line"><span class="lineno">   61</span>            <a class="code hl_function" href="classCluster.html#aad5d381d390683b5535d1d04033d80ba">leer_bintree_procesador</a>(r);</div>
+<div class="line"><span class="lineno">   62</span>            a = BinTree&lt;string&gt; (idn,l,r);</div>
+<div class="line"><span class="lineno">   63</span>        }</div>
+<div class="line"><span class="lineno">   64</span>    }</div>
+<div class="ttc" id="aclassProcesador_html"><div class="ttname"><a href="classProcesador.html">Procesador</a></div><div class="ttdoc">Representa un procesador con los atributos identificador, memoria máxima y contiene varios diccionari...</div><div class="ttdef"><b>Definition:</b> <a href="Procesador_8hh_source.html#l00024">Procesador.hh:25</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad57a1079f01d2b3a88b695e91ff546e9" name="ad57a1079f01d2b3a88b695e91ff546e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad57a1079f01d2b3a88b695e91ff546e9">&#9670;&#160;</a></span>modificar_bintree_procesador()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Cluster::modificar_bintree_procesador </td>
+          <td>(</td>
+          <td class="paramtype">BinTree&lt; string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>idn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classCluster.html">Cluster</a> &amp;&#160;</td>
+          <td class="paramname"><em>cl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Modificadora del BinTree del P.I. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>a = cls, string idn, <a class="el" href="classCluster.html" title="Representa un cluster de procesadores que almacena procesadores en un formato de árbol binario.">Cluster</a> cl. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Si se ha encontrado en el Bintree "a" el procesador con identificador "idn", se coloca en su lugar el Bintree del cluster "cl", en caso contrario, se imprime un mensaje de error. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00010">10</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   11</span>    {    </div>
+<div class="line"><span class="lineno">   12</span>        <span class="keywordflow">if</span> (not a.empty()) {</div>
+<div class="line"><span class="lineno">   13</span>            <span class="keywordflow">if</span> (a.value() != idn) {</div>
+<div class="line"><span class="lineno">   14</span>                BinTree&lt;string&gt; l = a.left();</div>
+<div class="line"><span class="lineno">   15</span>                BinTree&lt;string&gt; r = a.right();</div>
+<div class="line"><span class="lineno">   16</span>                <span class="keywordtype">bool</span> modified = <a class="code hl_function" href="classCluster.html#ad57a1079f01d2b3a88b695e91ff546e9">modificar_bintree_procesador</a>(l, idn, cl);</div>
+<div class="line"><span class="lineno">   17</span>                <span class="keywordflow">if</span>(not modified) modified = <a class="code hl_function" href="classCluster.html#ad57a1079f01d2b3a88b695e91ff546e9">modificar_bintree_procesador</a>(r,idn, cl);</div>
+<div class="line"><span class="lineno">   18</span>                a = BinTree&lt;string&gt; (a.value(), l, r);</div>
+<div class="line"><span class="lineno">   19</span>                <span class="keywordflow">return</span> modified;</div>
+<div class="line"><span class="lineno">   20</span>            }</div>
+<div class="line"><span class="lineno">   21</span>            <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   22</span>                <span class="keywordflow">if</span> (a.left().empty() and a.right().empty()) {</div>
+<div class="line"><span class="lineno">   23</span>                    map&lt;string,Procesador&gt;::iterator it = <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.find(a.value());</div>
+<div class="line"><span class="lineno">   24</span>                    <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.erase(it);</div>
+<div class="line"><span class="lineno">   25</span>                    a = cl.<a class="code hl_variable" href="classCluster.html#ac0a0e13547296cc8da49a1a44b77f6b1">cls</a>;</div>
+<div class="line"><span class="lineno">   26</span>                    <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.insert(cl.<a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.begin(), cl.<a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.end());</div>
+<div class="line"><span class="lineno">   27</span>                }</div>
+<div class="line"><span class="lineno">   28</span>                <span class="keywordflow">else</span> cout &lt;&lt; <span class="stringliteral">&quot;error: procesador con auxiliares&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   29</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   30</span>            }</div>
+<div class="line"><span class="lineno">   31</span>        }</div>
+<div class="line"><span class="lineno">   32</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   33</span>    }</div>
+<div class="ttc" id="aclassCluster_html_ad57a1079f01d2b3a88b695e91ff546e9"><div class="ttname"><a href="classCluster.html#ad57a1079f01d2b3a88b695e91ff546e9">Cluster::modificar_bintree_procesador</a></div><div class="ttdeci">bool modificar_bintree_procesador(BinTree&lt; string &gt; &amp;a, const string &amp;idn, const Cluster &amp;cl)</div><div class="ttdoc">Modificadora del BinTree del P.I.</div><div class="ttdef"><b>Definition:</b> <a href="Cluster_8cc_source.html#l00010">Cluster.cc:10</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab7bbd1b456d842df3c399094420765d5" name="ab7bbd1b456d842df3c399094420765d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7bbd1b456d842df3c399094420765d5">&#9670;&#160;</a></span>modificar_cluster()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cluster::modificar_cluster </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>idn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classCluster.html">Cluster</a> &amp;&#160;</td>
+          <td class="paramname"><em>cl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Modificadora que elimina un procesador del P.I. y coloca un nuevo cluster en su lugar. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>String idn, <a class="el" href="classCluster.html" title="Representa un cluster de procesadores que almacena procesadores en un formato de árbol binario.">Cluster</a> cl. </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se ha intentado sustituir el procesador con string idn por el cluster "cl". </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8cc_source.html#l00163">163</a> del archivo <a class="el" href="Cluster_8cc_source.html">Cluster.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  164</span>    {</div>
+<div class="line"><span class="lineno">  165</span>        map&lt;string,Procesador&gt;::iterator it = <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.find(idn);</div>
+<div class="line"><span class="lineno">  166</span>        <span class="keywordflow">if</span> (it == <a class="code hl_variable" href="classCluster.html#a8187a87b88b7d85534f9506a955fc19e">d</a>.end()) cout &lt;&lt; <span class="stringliteral">&quot;error: no existe procesador&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  167</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (it-&gt;second.en_ejecucion()) cout &lt;&lt; <span class="stringliteral">&quot;error: procesador con procesos&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  168</span>        <span class="keywordflow">else</span> <a class="code hl_function" href="classCluster.html#ad57a1079f01d2b3a88b695e91ff546e9">modificar_bintree_procesador</a>(<a class="code hl_variable" href="classCluster.html#ac0a0e13547296cc8da49a1a44b77f6b1">cls</a>, idn, cl);</div>
+<div class="line"><span class="lineno">  169</span>    }  </div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a id="ac0a0e13547296cc8da49a1a44b77f6b1" name="ac0a0e13547296cc8da49a1a44b77f6b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0a0e13547296cc8da49a1a44b77f6b1">&#9670;&#160;</a></span>cls</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BinTree&lt;string&gt; Cluster::cls</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>BinTree que almacena los identificadores de los procesadores. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8hh_source.html#l00028">28</a> del archivo <a class="el" href="Cluster_8hh_source.html">Cluster.hh</a>.</p>
+
+</div>
+</div>
+<a id="a8187a87b88b7d85534f9506a955fc19e" name="a8187a87b88b7d85534f9506a955fc19e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8187a87b88b7d85534f9506a955fc19e">&#9670;&#160;</a></span>d</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">map&lt;string, <a class="el" href="classProcesador.html">Procesador</a>&gt; Cluster::d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mapa que guarda los procesadores cuyas claves son los identificadores almacenados en el árbol. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="Cluster_8hh_source.html#l00031">31</a> del archivo <a class="el" href="Cluster_8hh_source.html">Cluster.hh</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir de los siguientes ficheros:<ul>
+<li><a class="el" href="Cluster_8hh_source.html">Cluster.hh</a></li>
+<li><a class="el" href="Cluster_8cc_source.html">Cluster.cc</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>
