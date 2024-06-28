@@ -22,13 +22,10 @@ Viewing the Match:
 After compilation and execution, follow these steps to witness the match:
 
     1. Open a console and cd to the directory where you extracted the source code.
-```bash
     2. Run make all
-```
-```bash
     3. This creates an executable file called Game. This executable allows you to run
     a game using a command like:
-
+```bash
 ./Game WESTCOAST Demo Demo Demo -s 30 -i default.cnf -o default.res
 ```
     This starts a match, with random seed 30, of three instances of the player Demo and the bot WESTCOAST (created by me), in the board defined in default.cnf. The output of this match is redirected to
