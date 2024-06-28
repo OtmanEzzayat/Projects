@@ -23,8 +23,7 @@ After compilation and execution, follow these steps to witness the match:
 
     1. Open a console and cd to the directory where you extracted the source code.
 ```bash
-    2. Run 
-make all
+    2. Run make all
 ```
 ```bash
     3. This creates an executable file called Game. This executable allows you to run
