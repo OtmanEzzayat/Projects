@@ -12,9 +12,9 @@ To compile the game, run the following command in the terminal:
 ```bash
 make all
 ```
-```bash
-Execute the game with the following command:
 
+Execute the game with the following command:
+```bash
 ./Game WESTCOAST Dummy Dummy Dummy -s 30 -i default.cnf -o default.res
 ```
 
