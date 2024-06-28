@@ -1,4 +1,4 @@
-#BackGround Story
+# BackGround Story
 
 Crematoria is a planet in the Igneon System. Many years ago, its surface was
 not habitable because of its extreme temperatures: one would be incinerated if
