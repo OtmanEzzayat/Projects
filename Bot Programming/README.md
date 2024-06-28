@@ -8,16 +8,16 @@ Simulation a complex 4-player game set on the fictional planet Crematoria from t
 
 ### Compilation:
 
-1. Open a console and cd to the directory where you extracted the source code.
-2. Run:
+ 1. Open a console and cd to the directory where you extracted the source code.
+ 2. Run:
 ```bash
  make all
 ```
-3. This creates an executable file called Game. This executable allows you to run
+ 3. This creates an executable file called Game. This executable allows you to run
 a game using a command like:
 ```bash
 ./Game WESTCOAST Demo Demo Demo -s 30 -i default.cnf -o default.res
 ```
 This starts a match, with random seed 30, of three instances of the player Demo and the bot WESTCOAST (created by me), in the board defined in default.cnf. The output of this match is redirected to default.res. <br>
-4. To watch a game, open the viewer file viewer.html with your browser and
+ 4. To watch a game, open the viewer file viewer.html with your browser and
 load the file default.res.
